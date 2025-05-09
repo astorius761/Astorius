@@ -247,7 +247,7 @@ body {
   /* Media Queries */
   @media (max-width: 600px) {
     .hero h2 {
-      font-size: 2.2rem;
+      font-size: 2rem;
     }
   
     .cta-buttons {
