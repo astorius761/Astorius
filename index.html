@@ -26,6 +26,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#workflow">Tools</a></li>
         <li><a href="#algorithms">Algorithms</a></li>
+        <li><a href="#comparison">Comparison</a></li>
         <li><a href="#results">Results</a></li>
         <li><a href="documents/Project_Report.pdf" class="btn-download" target="_blank">Download Report</a></li>
       </ul>
@@ -120,6 +121,82 @@
       <div class="step">Landing Success Metrics</div>
     </div>
   </section>
+<!-- Algorithm Comparison Section -->
+<section id="comparison">
+  <h2>Algorithm Comparison</h2>
+  
+  <div class="comparison-tables">
+    <div class="card">
+      <h3>Performance Metrics</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Algorithm</th>
+            <th>Performance</th>
+            <th>Stability</th>
+            <th>Convergence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>PPO</td>
+            <td>Strong learning curve</td>
+            <td>Stabilizes over time</td>
+            <td>Positive rewards</td>
+          </tr>
+          <tr>
+            <td>Q-Table</td>
+            <td>Poor, declines over time</td>
+            <td>Very unstable</td>
+            <td>No convergence</td>
+          </tr>
+          <tr>
+            <td>Deep Q-Learning</td>
+            <td>Stable but suboptimal</td>
+            <td>Consistently stable</td>
+            <td>Suboptimal solution</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div class="card">
+      <h3>Training Results</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Algorithm</th>
+            <th>Episodes</th>
+            <th>Initial Rewards</th>
+            <th>Final Rewards</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>PPO</td>
+            <td>~1500</td>
+            <td>Poor (~200 to -600)</td>
+            <td>Positive (~0 to 200)</td>
+          </tr>
+          <tr>
+            <td>Q-Table</td>
+            <td>~10,000</td>
+            <td>Poor (~200 to -600)</td>
+            <td>Declining (~200 to -600)</td>
+          </tr>
+          <tr>
+            <td>Deep Q-Learning</td>
+            <td>~1300</td>
+            <td>Moderate (~50 to -100)</td>
+            <td>Stable (~50 to -100)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+  
   <!-- Results Section -->
   <section id="results">
     <h2>Results</h2>
@@ -144,6 +221,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#workflow">Tools</a></li>
       <li><a href="#algorithms">Algorithms</a></li>
+      <li><a href="#comparison">Comparison</a></li>
       <li><a href="#results">Results</a></li>
 
     </ul>
