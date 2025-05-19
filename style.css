@@ -501,3 +501,53 @@ body {
   transform: translateY(-5px); /* Adds hover effect to lift the card */
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2); /* Intensifies the shadow on hover */
 }
+/* Comparison Section */
+#comparison {
+  background-color: #121212;
+  padding: 4rem 2rem;
+}
+
+.comparison-tables {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid #A1A1A1;
+}
+
+th {
+  background-color: rgba(161, 161, 161, 0.2);
+  font-weight: bold;
+  color: #ffffff;
+}
+
+tr:hover {
+  background-color: rgba(161, 161, 161, 0.1);
+}
+
+@media (max-width: 768px) {
+  .comparison-tables {
+    grid-template-columns: 1fr;
+  }
+  
+  table {
+    font-size: 0.9rem;
+  }
+  
+  th, td {
+    padding: 0.6rem;
+  }
+}
